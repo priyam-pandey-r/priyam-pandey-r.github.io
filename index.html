@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Priyam Pandey | AI for Biological Systems</title>
+  <meta name="description" content="Personal research portfolio of Priyam Pandey. Multimodal representation learning, protein foundation models, and geometric deep learning.">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+  </style>
+</head>
+<body class="bg-[#fafafa] text-zinc-900 antialiased selection:bg-blue-100 flex flex-col min-h-screen">
+  <!-- Top Navigation -->
+  <header class="border-b border-zinc-200 bg-white/90 backdrop-blur sticky top-0 z-50">
+    <div class="max-w-4xl mx-auto px-4 h-16 flex items-center justify-between">
+      <a href="index.html" class="font-bold tracking-tight text-lg text-zinc-900 hover:text-blue-600 transition">Priyam Pandey</a>
+      <nav class="flex items-center space-x-6 text-sm font-medium text-zinc-600">
+        <a href="index.html" class="text-blue-600 font-semibold">Home</a>
+        <a href="research.html" class="hover:text-zinc-900 transition">Research</a>
+        <a href="publications.html" class="hover:text-zinc-900 transition">Publications</a>
+        <a href="projects.html" class="hover:text-zinc-900 transition">Projects</a>
+        <a href="about.html" class="hover:text-zinc-900 transition">About</a>
+        <a href="cv.html" class="hover:text-zinc-900 transition">CV</a>
+        <a href="contact.html" class="hover:text-zinc-900 transition">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <main class="max-w-4xl mx-auto px-4 py-14 flex-grow">
+    <div class="inline-block px-3 py-1 mb-4 text-xs font-semibold tracking-wider text-blue-700 uppercase bg-blue-50 rounded-full border border-blue-200">
+      AI for Biological Systems
+    </div>
+    <h1 class="text-4xl md:text-5xl font-extrabold tracking-tight text-zinc-900 mb-3">
+      Priyam Pandey
+    </h1>
+    <p class="text-lg md:text-xl text-zinc-600 mb-6 font-medium">
+      Multimodal Representation Learning · Protein AI · Geometric Deep Learning
+    </p>
+    <p class="text-base md:text-lg text-zinc-700 leading-relaxed max-w-3xl mb-8">
+      Undergraduate Researcher at the School of Data Science, <a href="https://www.iisertvm.ac.in" target="_blank" class="text-blue-600 underline underline-offset-4 hover:text-blue-800">IISER Thiruvananthapuram</a> (DIL Lab, advised by Dr. Alwin Poulose). I design principled neural architectures for learning from heterogeneous biological data—spanning sequences, 3D point clouds, graphs, and volumetric densities.
+    </p>
+
+    <!-- Buttons -->
+    <div class="flex flex-wrap gap-3 mb-14">
+      <a href="cv.html" class="px-4 py-2 text-sm font-semibold rounded-lg bg-zinc-900 text-white hover:bg-zinc-800 transition shadow-xs inline-flex items-center">
+        <i class="fa-solid fa-file-pdf mr-2"></i> Curriculum Vitae
+      </a>
+      <a href="research.html" class="px-4 py-2 text-sm font-semibold rounded-lg border border-zinc-300 text-zinc-800 hover:bg-zinc-100 transition inline-flex items-center">
+        <i class="fa-solid fa-dna mr-2"></i> Research Programs
+      </a>
+      <a href="https://scholar.google.com/citations?user=6VkZtE8AAAAJ&hl=en" target="_blank" class="px-4 py-2 text-sm font-semibold rounded-lg border border-zinc-300 text-zinc-800 hover:bg-zinc-100 transition inline-flex items-center">
+        <i class="fa-solid fa-graduation-cap mr-2"></i> Google Scholar
+      </a>
+      <a href="https://github.com/priyam-pandey-r" target="_blank" class="px-4 py-2 text-sm font-semibold rounded-lg border border-zinc-300 text-zinc-800 hover:bg-zinc-100 transition inline-flex items-center">
+        <i class="fa-brands fa-github mr-2"></i> GitHub
+      </a>
+      <a href="contact.html" class="px-4 py-2 text-sm font-semibold rounded-lg border border-zinc-300 text-zinc-800 hover:bg-zinc-100 transition inline-flex items-center">
+        <i class="fa-solid fa-envelope mr-2"></i> Contact
+      </a>
+    </div>
+
+    <!-- Featured Research Section -->
+    <section>
+      <div class="flex justify-between items-baseline mb-6 border-b border-zinc-200 pb-3">
+        <div>
+          <h2 class="text-xl font-bold tracking-tight text-zinc-900">Featured Research</h2>
+          <p class="text-xs text-zinc-500 mt-0.5">Foundational models and multimodal architectures</p>
+        </div>
+        <a href="research.html" class="text-sm font-semibold text-blue-600 hover:underline">View all &rarr;</a>
+      </div>
+
+      <div class="space-y-5">
+        <!-- Item 1: ProteinFM -->
+        <article class="p-6 rounded-xl border border-zinc-200 bg-white hover:border-zinc-300 transition">
+          <div class="flex items-center justify-between mb-2">
+            <span class="text-xs font-semibold px-2.5 py-0.5 rounded-full bg-purple-100 text-purple-800">Active Work · In Prep</span>
+            <span class="text-xs text-zinc-400">2026</span>
+          </div>
+          <h3 class="text-lg font-bold text-zinc-900 mb-2">
+            <a href="research.html#proteinfm" class="hover:text-blue-600">ProteinFM: Adaptive Multimodal Protein Foundation Models</a>
+          </h3>
+          <p class="text-sm text-zinc-600 mb-4 leading-relaxed">
+            Parameter-efficient adapters (PAEP) and adaptive poly-modal fusion (APF) dynamically integrating sequence (ESM-2, SaProt) and structure (GearNet) representations under pLDDT uncertainty gating. Evaluated via a rigorous 9-stage U0–U8 systematic probing protocol.
+          </p>
+          <div class="flex items-center gap-4 text-xs font-medium">
+            <a href="research.html#proteinfm" class="text-blue-600 hover:underline">Methodology & Architecture &rarr;</a>
+            <a href="https://github.com/priyam-pandey-r/representation-learning-bioai-portfolio" target="_blank" class="text-zinc-500 hover:text-zinc-900">
+              <i class="fa-brands fa-github mr-1"></i> Code Repository
+            </a>
+          </div>
+        </article>
+
+        <!-- Item 2: Neuronal Morphology -->
+        <article class="p-6 rounded-xl border border-zinc-200 bg-white hover:border-zinc-300 transition">
+          <div class="flex items-center justify-between mb-2">
+            <span class="text-xs font-semibold px-2.5 py-0.5 rounded-full bg-emerald-100 text-emerald-800">Under Review · Neurocomputing</span>
+            <span class="text-xs text-zinc-400">2026</span>
+          </div>
+          <h3 class="text-lg font-bold text-zinc-900 mb-2">
+            <a href="research.html#neuronal" class="hover:text-blue-600">Morphogenesis Fusion: Multi-View Representation Learning for Neuronal Morphology Analysis</a>
+          </h3>
+          <p class="text-sm text-zinc-600 mb-4 leading-relaxed">
+            A tri-modal geometric deep learning framework harmonizing 3D point clouds (PointNet++), morphological branching graphs (PNA/GAT), and voxel volumes to decode complex 3D cellular phenotypes under strict leakage controls.
+          </p>
+          <div class="flex items-center gap-4 text-xs font-medium">
+            <a href="research.html#neuronal" class="text-blue-600 hover:underline">Read Research Deep Dive &rarr;</a>
+            <span class="text-zinc-400">First Author</span>
+          </div>
+        </article>
+
+        <!-- Item 3: Thermal Pose -->
+        <article class="p-6 rounded-xl border border-zinc-200 bg-white hover:border-zinc-300 transition">
+          <div class="flex items-center justify-between mb-2">
+            <span class="text-xs font-semibold px-2.5 py-0.5 rounded-full bg-blue-100 text-blue-800">Published · Knowledge-Based Systems</span>
+            <span class="text-xs text-zinc-400">2026</span>
+          </div>
+          <h3 class="text-lg font-bold text-zinc-900 mb-2">
+            <a href="https://doi.org/10.1016/j.knosys.2026.116659" target="_blank" class="hover:text-blue-600">Multimodal Learning With Thermal Imagery and Pose Cues for Privacy-Preserving Behavior Recognition</a>
+          </h3>
+          <p class="text-sm text-zinc-600 mb-4 leading-relaxed">
+            Pioneered Confidence-Gated Cross-Attention (CGCA) and Cross-Gated Hierarchical Cross-Attention (CGHCA) to regulate cross-modal exchange by real-time observational confidence under sensor degradation.
+          </p>
+          <div class="flex items-center gap-4 text-xs font-medium">
+            <a href="https://doi.org/10.1016/j.knosys.2026.116659" target="_blank" class="text-blue-600 hover:underline">View Journal Paper (Elsevier DOI) &rarr;</a>
+            <span class="text-zinc-400">Elsevier · First Author</span>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="border-t border-zinc-200 mt-16 py-8 text-center text-xs text-zinc-500 bg-white">
+    <p>&copy; 2026 Priyam Pandey · Built with GitHub Pages & Astro · Minimal & Research-First</p>
+  </footer>
+</body>
+</html>
