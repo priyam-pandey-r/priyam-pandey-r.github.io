@@ -1,9 +1,8 @@
-// Theme script to avoid FOUC (Flash of Unstyled Content)
+// Theme management: Default to Light mode for first-time visitors, persist in localStorage
 (function() {
   const storedTheme = localStorage.getItem('theme');
-  const systemPrefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-  
-  if (storedTheme === 'dark' || (!storedTheme && systemPrefersDark)) {
+  // Default to light unless explicitly chosen 'dark'
+  if (storedTheme === 'dark') {
     document.documentElement.classList.add('dark');
   } else {
     document.documentElement.classList.remove('dark');
