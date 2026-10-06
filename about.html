@@ -13,30 +13,41 @@
   <header class="border-b border-zinc-200 bg-white/90 backdrop-blur sticky top-0 z-50">
     <div class="max-w-4xl mx-auto px-4 h-16 flex items-center justify-between">
       <a href="index.html" class="font-bold tracking-tight text-lg text-zinc-900 hover:text-blue-600 transition">Priyam Pandey</a>
-      <nav class="flex items-center space-x-6 text-sm font-medium text-zinc-600">
+      <nav class="flex items-center space-x-5 text-sm font-medium text-zinc-600">
         <a href="index.html" class="hover:text-zinc-900 transition">Home</a>
         <a href="research.html" class="hover:text-zinc-900 transition">Research</a>
         <a href="publications.html" class="hover:text-zinc-900 transition">Publications</a>
         <a href="projects.html" class="hover:text-zinc-900 transition">Projects</a>
-        <a href="about.html" class="text-blue-600 font-semibold">About</a>
         <a href="cv.html" class="hover:text-zinc-900 transition">CV</a>
-        <a href="contact.html" class="hover:text-zinc-900 transition">Contact</a>
+        <a href="about.html" class="text-blue-600 font-semibold">About</a>
+        <a href="contact.html" class="hidden sm:inline-block px-3 py-1 rounded-md bg-zinc-100 text-zinc-800 hover:bg-zinc-200 text-xs font-semibold transition">Contact</a>
       </nav>
     </div>
   </header>
 
   <main class="max-w-3xl mx-auto px-4 py-12 flex-grow">
-    <header class="mb-10 border-b border-zinc-200 pb-8">
-      <h1 class="text-3xl md:text-4xl font-extrabold text-zinc-900 mb-2">About Priyam Pandey</h1>
-      <p class="text-sm text-zinc-600">Undergraduate Researcher · School of Data Science, IISER Thiruvananthapuram</p>
+    <header class="mb-10 border-b border-zinc-200 pb-8 flex flex-col-reverse sm:flex-row sm:items-center justify-between gap-6">
+      <div>
+        <h1 class="text-3xl md:text-4xl font-extrabold text-zinc-900 mb-2">About Priyam Pandey</h1>
+        <p class="text-sm text-zinc-600">Undergraduate Researcher · School of Data Science, IISER Thiruvananthapuram</p>
+        <p class="text-xs text-zinc-500 mt-1">DIL Lab · advised by Dr. Alwin Poulose</p>
+      </div>
+      <div class="w-24 h-24 rounded-2xl overflow-hidden border-2 border-zinc-200 shadow-2xs bg-zinc-100 flex-shrink-0">
+        <img 
+          src="assets/priyam.jpg" 
+          alt="Priyam Pandey" 
+          class="w-full h-full object-cover"
+          onerror="this.onerror=null; this.src='https://ui-avatars.com/api/?name=Priyam+Pandey&background=f1f5f9&color=0f172a&size=256';"
+        />
+      </div>
     </header>
 
     <div class="text-base text-zinc-700 leading-relaxed space-y-4 mb-12">
       <p>
-        I am currently pursuing a BS-MS Dual Degree in Data Science at the <a href="https://www.iisertvm.ac.in" target="_blank" class="text-blue-600 underline underline-offset-4 hover:text-blue-800">Indian Institute of Science Education and Research Thiruvananthapuram (IISER TVM)</a>. I conduct research at the DIL Lab under the supervision of Dr. Alwin Poulose.
+        I am currently pursuing a BS-MS Dual Degree in Data Science at the <a href="https://www.iisertvm.ac.in" target="_blank" class="text-blue-600 underline underline-offset-4 hover:text-blue-800">Indian Institute of Science Education and Research Thiruvananthapuram (IISER TVM)</a>. At the DIL Lab, advised by Dr. Alwin Poulose, I conduct research in multimodal representation learning, 3D geometric deep learning, and macromolecular foundation models.
       </p>
       <p>
-        My research focuses on formulating mathematically disciplined representations for complex biological entities. I bridge continuous 3D Euclidean coordinates, discrete topological graph structures, and high-dimensional evolutionary language representations to build robust, generalizable foundation models for biological discovery.
+        My research focuses on building generalizable representation learning systems for complex biological data. I bridge continuous 3D Euclidean coordinates, discrete topological graph structures, and high-dimensional evolutionary language representations to build robust, generalizable foundation models for biological discovery.
       </p>
     </div>
 
@@ -55,26 +66,26 @@
       </div>
     </section>
 
-    <!-- Research Interests -->
+    <!-- Research Focus & Trajectory -->
     <section class="mb-12">
-      <h2 class="text-lg font-bold text-zinc-900 mb-4 pb-2 border-b border-zinc-200">Research Interests</h2>
+      <h2 class="text-lg font-bold text-zinc-900 mb-4 pb-2 border-b border-zinc-200">Research Focus & Trajectory</h2>
       <ul class="space-y-3 text-sm text-zinc-700">
         <li class="flex items-start gap-2">
           <span class="text-blue-600 font-bold">&bull;</span>
           <div>
-            <strong>Biological Foundation Models:</strong> Multimodal protein representation learning, sequence-structure alignment, and systematic probing suites (U0–U8).
+            <strong>Protein AI:</strong> Multimodal foundation models (ESM-2, GearNet), sequence-structure alignment, and systematic probing suites (U0–U8).
           </div>
         </li>
         <li class="flex items-start gap-2">
           <span class="text-blue-600 font-bold">&bull;</span>
           <div>
-            <strong>Geometric Deep Learning:</strong> 3D point cloud architectures, topological graph neural networks (PNA, GAT), and equivariant modeling of molecular structures.
+            <strong>Multimodal Biological AI:</strong> Principled fusion architectures that dynamically weight heterogeneous modalities based on observational certainty.
           </div>
         </li>
         <li class="flex items-start gap-2">
           <span class="text-blue-600 font-bold">&bull;</span>
           <div>
-            <strong>Adaptive Multimodal Fusion:</strong> Confidence-aware cross-attention mechanisms that handle sensor noise and observational uncertainty.
+            <strong>Geometric Deep Learning:</strong> 3D point cloud architectures, topological graph neural networks (PNA, GAT), and equivariant macromolecular modeling.
           </div>
         </li>
       </ul>
@@ -90,7 +101,15 @@
   </main>
 
   <footer class="border-t border-zinc-200 mt-16 py-8 text-center text-xs text-zinc-500 bg-white">
-    <p>&copy; 2026 Priyam Pandey · Built with GitHub Pages & Astro · Minimal & Research-First</p>
+    <div class="max-w-4xl mx-auto px-4 flex flex-col sm:flex-row justify-between items-center gap-2">
+      <p>&copy; 2026 Priyam Pandey · Built with GitHub Pages · Research-First</p>
+      <div class="flex space-x-4">
+        <a href="mailto:priyam24@iisertvm.ac.in" class="hover:text-zinc-900">Email</a>
+        <a href="https://github.com/priyam-pandey-r" target="_blank" class="hover:text-zinc-900">GitHub</a>
+        <a href="https://scholar.google.com/citations?user=6VkZtE8AAAAJ&hl=en" target="_blank" class="hover:text-zinc-900">Scholar</a>
+        <a href="cv.html" class="hover:text-zinc-900">CV</a>
+      </div>
+    </div>
   </footer>
 </body>
 </html>
