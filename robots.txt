@@ -1,4 +1,20 @@
 User-agent: *
 Allow: /
 
+# Restrict automated AI scrapers from harvesting research diagrams, text, and data
+User-agent: GPTBot
+Disallow: /
+
+User-agent: ClaudeBot
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: Bytespider
+Disallow: /
+
+User-agent: Diffbot
+Disallow: /
+
 Sitemap: https://priyam-pandey-r.github.io/sitemap.xml
