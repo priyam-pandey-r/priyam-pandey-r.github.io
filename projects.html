@@ -79,15 +79,16 @@
     </header>
 
     <div class="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6">
+      <!-- Repo 1: ProteinFM -->
       <div class="p-5 sm:p-6 rounded-xl border border-zinc-200 dark:border-zinc-800 bg-white dark:bg-[#121214] hover:border-zinc-300 dark:hover:border-zinc-700 theme-transition flex flex-col justify-between">
         <div>
           <div class="flex items-center justify-between text-xs text-zinc-500 mb-2">
-            <span class="font-mono text-blue-600 dark:text-blue-400 font-semibold">Python · PyTorch</span>
-            <span>Active</span>
+            <span class="font-mono text-purple-600 dark:text-purple-400 font-semibold">PyTorch · ESM-2 · GearNet</span>
+            <span class="text-[11px] px-2 py-0.5 rounded-full bg-zinc-100 dark:bg-zinc-800 text-zinc-600 dark:text-zinc-300 font-medium">Active Codebase</span>
           </div>
-          <h2 class="text-base sm:text-lg font-bold text-zinc-900 dark:text-zinc-100 mb-2 break-all sm:break-normal">representation-learning-bioai-portfolio</h2>
+          <h2 class="text-base sm:text-lg font-bold text-zinc-900 dark:text-zinc-100 mb-2 break-all sm:break-normal">proteinfm_repo</h2>
           <p class="text-xs sm:text-sm text-zinc-600 dark:text-zinc-400 mb-4 leading-relaxed">
-            Central repository housing parameter-efficient adapters (PAEP), uncertainty-aware cross-attention (APF), and evaluation harnesses for multimodal protein foundation models.
+            Central repository housing the Protein Adapter-Encoder-Projector (PAEP) framework, pLDDT reliability-gated fusion (APF), and the U0–U8 systematic evaluation suite for multimodal protein foundation models.
           </p>
         </div>
         <div class="pt-3.5 border-t border-zinc-100 dark:border-zinc-800 flex items-center justify-between text-xs">
@@ -98,15 +99,76 @@
         </div>
       </div>
 
+      <!-- Repo 2: EpiFactor -->
+      <div class="p-5 sm:p-6 rounded-xl border border-zinc-200 dark:border-zinc-800 bg-white dark:bg-[#121214] hover:border-zinc-300 dark:hover:border-zinc-700 theme-transition flex flex-col justify-between">
+        <div>
+          <div class="flex items-center justify-between text-xs text-zinc-500 mb-2">
+            <span class="font-mono text-blue-600 dark:text-blue-400 font-semibold">PyTorch · CUDA Kernels</span>
+            <span class="text-[11px] px-2 py-0.5 rounded-full bg-zinc-100 dark:bg-zinc-800 text-zinc-600 dark:text-zinc-300 font-medium">Validated Pipeline</span>
+          </div>
+          <h2 class="text-base sm:text-lg font-bold text-zinc-900 dark:text-zinc-100 mb-2 break-all sm:break-normal">epifactor_repo</h2>
+          <p class="text-xs sm:text-sm text-zinc-600 dark:text-zinc-400 mb-4 leading-relaxed">
+            Structure-aware higher-order epistatic fitness factorization isolating 3D physical contacts ($8.0\,\text{Å}$ cutoff). Features an active-edge indexing kernel delivering a $142\times$ GPU acceleration on deep mutational scanning benchmarks.
+          </p>
+        </div>
+        <div class="pt-3.5 border-t border-zinc-100 dark:border-zinc-800 flex items-center justify-between text-xs">
+          <a href="https://github.com/priyam-pandey-r" target="_blank" class="font-semibold text-blue-600 dark:text-blue-400 hover:underline inline-flex items-center py-1">
+            <i class="fa-brands fa-github mr-1.5"></i> View Repository &rarr;
+          </a>
+          <span class="text-zinc-400 text-[11px] sm:text-xs">Fitness Modeling</span>
+        </div>
+      </div>
+
+      <!-- Repo 3: SCO-Perturb (Epi-GEARS) -->
+      <div class="p-5 sm:p-6 rounded-xl border border-zinc-200 dark:border-zinc-800 bg-white dark:bg-[#121214] hover:border-zinc-300 dark:hover:border-zinc-700 theme-transition flex flex-col justify-between">
+        <div>
+          <div class="flex items-center justify-between text-xs text-zinc-500 mb-2">
+            <span class="font-mono text-emerald-600 dark:text-emerald-400 font-semibold">PyG · scATAC · Geneformer</span>
+            <span class="text-[11px] px-2 py-0.5 rounded-full bg-zinc-100 dark:bg-zinc-800 text-zinc-600 dark:text-zinc-300 font-medium">Benchmarked</span>
+          </div>
+          <h2 class="text-base sm:text-lg font-bold text-zinc-900 dark:text-zinc-100 mb-2 break-all sm:break-normal">omics_fm_repo (Epi-GEARS)</h2>
+          <p class="text-xs sm:text-sm text-zinc-600 dark:text-zinc-400 mb-4 leading-relaxed">
+            Dynamic graph neural network predicting single-cell transcriptional responses to genetic perturbations. Modulates gene regulatory message passing with cis-regulatory chromatin accessibility priors from paired scATAC-seq data.
+          </p>
+        </div>
+        <div class="pt-3.5 border-t border-zinc-100 dark:border-zinc-800 flex items-center justify-between text-xs">
+          <a href="https://github.com/priyam-pandey-r" target="_blank" class="font-semibold text-blue-600 dark:text-blue-400 hover:underline inline-flex items-center py-1">
+            <i class="fa-brands fa-github mr-1.5"></i> View Repository &rarr;
+          </a>
+          <span class="text-zinc-400 text-[11px] sm:text-xs">Single-Cell AI</span>
+        </div>
+      </div>
+
+      <!-- Repo 4: MutPerturb-sc -->
+      <div class="p-5 sm:p-6 rounded-xl border border-zinc-200 dark:border-zinc-800 bg-white dark:bg-[#121214] hover:border-zinc-300 dark:hover:border-zinc-700 theme-transition flex flex-col justify-between">
+        <div>
+          <div class="flex items-center justify-between text-xs text-zinc-500 mb-2">
+            <span class="font-mono text-purple-600 dark:text-purple-400 font-semibold">OT Flow Matching · ESM-2</span>
+            <span class="text-[11px] px-2 py-0.5 rounded-full bg-zinc-100 dark:bg-zinc-800 text-zinc-600 dark:text-zinc-300 font-medium">Architecture Verified</span>
+          </div>
+          <h2 class="text-base sm:text-lg font-bold text-zinc-900 dark:text-zinc-100 mb-2 break-all sm:break-normal">mutperturb_sc_repo</h2>
+          <p class="text-xs sm:text-sm text-zinc-600 dark:text-zinc-400 mb-4 leading-relaxed">
+            Continuous optimal transport conditional flow matching for variant-induced cellular response modeling, learning velocity fields that transport baseline single-cell states to post-perturbation distributions conditioned on missense mutations.
+          </p>
+        </div>
+        <div class="pt-3.5 border-t border-zinc-100 dark:border-zinc-800 flex items-center justify-between text-xs">
+          <a href="https://github.com/priyam-pandey-r" target="_blank" class="font-semibold text-blue-600 dark:text-blue-400 hover:underline inline-flex items-center py-1">
+            <i class="fa-brands fa-github mr-1.5"></i> View Repository &rarr;
+          </a>
+          <span class="text-zinc-400 text-[11px] sm:text-xs">Variant Dynamics</span>
+        </div>
+      </div>
+
+      <!-- Repo 5: Neuronal Morphology Pipeline -->
       <div class="p-5 sm:p-6 rounded-xl border border-zinc-200 dark:border-zinc-800 bg-white dark:bg-[#121214] hover:border-zinc-300 dark:hover:border-zinc-700 theme-transition flex flex-col justify-between">
         <div>
           <div class="flex items-center justify-between text-xs text-zinc-500 mb-2">
             <span class="font-mono text-emerald-600 dark:text-emerald-400 font-semibold">PyG · PointNet++ · Trimesh</span>
-            <span>Maintained</span>
+            <span class="text-[11px] px-2 py-0.5 rounded-full bg-zinc-100 dark:bg-zinc-800 text-zinc-600 dark:text-zinc-300 font-medium">Maintained</span>
           </div>
-          <h2 class="text-base sm:text-lg font-bold text-zinc-900 dark:text-zinc-100 mb-2">3D Neuronal Morphometry Pipeline</h2>
+          <h2 class="text-base sm:text-lg font-bold text-zinc-900 dark:text-zinc-100 mb-2">NMC_official_repository</h2>
           <p class="text-xs sm:text-sm text-zinc-600 dark:text-zinc-400 mb-4 leading-relaxed">
-            High-performance tooling for parsing SWC biological reconstructions and constructing multi-view 3D point clouds, GNN graphs, and volumetric voxel grids.
+            High-performance biological pipeline for parsing standardized SWC neuronal reconstructions and constructing aligned multi-view representations across branching graphs, spatial point clouds, and discretized 3D voxel grids.
           </p>
         </div>
         <div class="pt-3.5 border-t border-zinc-100 dark:border-zinc-800 flex items-center justify-between text-xs">
@@ -117,41 +179,23 @@
         </div>
       </div>
 
+      <!-- Repo 6: CGCA Modules -->
       <div class="p-5 sm:p-6 rounded-xl border border-zinc-200 dark:border-zinc-800 bg-white dark:bg-[#121214] hover:border-zinc-300 dark:hover:border-zinc-700 theme-transition flex flex-col justify-between">
         <div>
           <div class="flex items-center justify-between text-xs text-zinc-500 mb-2">
-            <span class="font-mono text-purple-600 dark:text-purple-400 font-semibold">PyTorch · Attention</span>
-            <span>Published</span>
+            <span class="font-mono text-blue-600 dark:text-blue-400 font-semibold">PyTorch · Attention Layers</span>
+            <span class="text-[11px] px-2 py-0.5 rounded-full bg-zinc-100 dark:bg-zinc-800 text-zinc-600 dark:text-zinc-300 font-medium">Published · KBS 2026</span>
           </div>
           <h2 class="text-base sm:text-lg font-bold text-zinc-900 dark:text-zinc-100 mb-2">Confidence-Gated Cross-Attention (CGCA)</h2>
           <p class="text-xs sm:text-sm text-zinc-600 dark:text-zinc-400 mb-4 leading-relaxed">
-            Drop-in PyTorch modules implementing confidence-weighted cross-attention and hierarchical gating to dynamically handle degraded sensory inputs.
+            Drop-in PyTorch modules implementing confidence-weighted cross-attention (CGCA) and hierarchical co-attention (CGHCA) to dynamically attenuate noisy modality predictions under measurement uncertainty.
           </p>
         </div>
         <div class="pt-3.5 border-t border-zinc-100 dark:border-zinc-800 flex items-center justify-between text-xs">
           <a href="https://github.com/priyam-pandey-r" target="_blank" class="font-semibold text-blue-600 dark:text-blue-400 hover:underline inline-flex items-center py-1">
             <i class="fa-brands fa-github mr-1.5"></i> View Repository &rarr;
           </a>
-          <span class="text-zinc-400 text-[11px] sm:text-xs">Multimodal</span>
-        </div>
-      </div>
-
-      <div class="p-5 sm:p-6 rounded-xl border border-zinc-200 dark:border-zinc-800 bg-white dark:bg-[#121214] hover:border-zinc-300 dark:hover:border-zinc-700 theme-transition flex flex-col justify-between">
-        <div>
-          <div class="flex items-center justify-between text-xs text-zinc-500 mb-2">
-            <span class="font-mono text-zinc-600 dark:text-zinc-400 font-semibold">Benchmarking · Probing</span>
-            <span>Core Tooling</span>
-          </div>
-          <h2 class="text-base sm:text-lg font-bold text-zinc-900 dark:text-zinc-100 mb-2">U0–U8 Systematic Evaluation Suite</h2>
-          <p class="text-xs sm:text-sm text-zinc-600 dark:text-zinc-400 mb-4 leading-relaxed">
-            Diagnostic harness probing representation fidelity across biochemical property preservation, evolutionary distance preservation, and structural contact recovery.
-          </p>
-        </div>
-        <div class="pt-3.5 border-t border-zinc-100 dark:border-zinc-800 flex items-center justify-between text-xs">
-          <a href="research.html#proteinfm" class="font-semibold text-blue-600 dark:text-blue-400 hover:underline inline-flex items-center py-1">
-            Read Specification &rarr;
-          </a>
-          <span class="text-zinc-400 text-[11px] sm:text-xs">Evaluation Suite</span>
+          <span class="text-zinc-400 text-[11px] sm:text-xs">Multimodal ML</span>
         </div>
       </div>
     </div>

@@ -77,7 +77,7 @@
       </div>
       <h1 class="text-3xl sm:text-4xl font-extrabold text-zinc-900 dark:text-zinc-50 mb-3">Research Focus</h1>
       <p class="text-base text-zinc-600 dark:text-zinc-400 max-w-2xl leading-relaxed">
-        Investigating representation learning across heterogeneous biological modalities, geometric deep learning on 3D biological systems, and adaptive cross-modal fusion.
+        Representation learning across heterogeneous biological scales—spanning protein foundation models, macromolecular fitness landscapes, geometric deep learning, and cellular perturbation manifolds.
       </p>
     </header>
 
@@ -217,6 +217,130 @@
         </div>
       </div>
     </article>
+
+    <!-- Section: Active BioAI Research Programs (Compact 2-Column Grid) -->
+    <section class="mb-12">
+      <div class="mb-6">
+        <h2 class="text-xl sm:text-2xl font-bold tracking-tight text-zinc-900 dark:text-zinc-100 mb-1">
+          Active BioAI Research Programs
+        </h2>
+        <p class="text-xs sm:text-sm text-zinc-600 dark:text-zinc-400">
+          Bridging macromolecular fitness landscapes, cellular perturbation manifolds, and generative molecular design:
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-5">
+        <!-- Program 1: EpiFactor -->
+        <div class="p-5 sm:p-6 rounded-xl border border-zinc-200 dark:border-zinc-800 bg-white dark:bg-[#121214] theme-transition flex flex-col justify-between">
+          <div>
+            <div class="flex items-center justify-between mb-2">
+              <span class="text-[11px] font-semibold px-2 py-0.5 rounded-full bg-blue-100 text-blue-800 dark:bg-blue-950/70 dark:text-blue-300">
+                Active Codebase · Validated
+              </span>
+              <span class="text-xs text-zinc-400">2026</span>
+            </div>
+            <h3 class="text-base font-bold text-zinc-900 dark:text-zinc-100 mb-1">
+              EpiFactor: Epistatic Fitness Factorization
+            </h3>
+            <p class="text-xs text-zinc-500 font-medium mb-2.5">Structure-Aware Higher-Order Mutation Modeling</p>
+            <p class="text-xs text-zinc-600 dark:text-zinc-400 leading-relaxed mb-4">
+              Decomposes fitness landscapes into reference-relative additive priors and sparse 3D contact-constrained epistasis ($8.0\,\text{Å}$ cutoff) with monotonic readout. Features a custom GPU active-edge kernel yielding a $142\times$ acceleration.
+            </p>
+          </div>
+          <div class="pt-3 border-t border-zinc-100 dark:border-zinc-800/80 flex items-center justify-between text-xs font-semibold">
+            <a href="https://github.com/priyam-pandey-r" target="_blank" class="text-blue-600 dark:text-blue-400 hover:underline inline-flex items-center">
+              <i class="fa-brands fa-github mr-1.5"></i> epifactor_repo &rarr;
+            </a>
+            <span class="text-zinc-400 text-[11px]">Protein Engineering</span>
+          </div>
+        </div>
+
+        <!-- Program 2: SCO-Perturb -->
+        <div class="p-5 sm:p-6 rounded-xl border border-zinc-200 dark:border-zinc-800 bg-white dark:bg-[#121214] theme-transition flex flex-col justify-between">
+          <div>
+            <div class="flex items-center justify-between mb-2">
+              <span class="text-[11px] font-semibold px-2 py-0.5 rounded-full bg-emerald-100 text-emerald-800 dark:bg-emerald-950/70 dark:text-emerald-300">
+                Benchmark Validated
+              </span>
+              <span class="text-xs text-zinc-400">2026</span>
+            </div>
+            <h3 class="text-base font-bold text-zinc-900 dark:text-zinc-100 mb-1">
+              SCO-Perturb (Epi-GEARS)
+            </h3>
+            <p class="text-xs text-zinc-500 font-medium mb-2.5">Epigenetically-Gated Single-Cell Perturbation</p>
+            <p class="text-xs text-zinc-600 dark:text-zinc-400 leading-relaxed mb-4">
+              Dynamically gates gene regulatory network message passing using paired scATAC-seq chromatin accessibility priors and frozen Geneformer embeddings, improving 2-gene combinatorial knockout predictions on the Norman et al. benchmark.
+            </p>
+          </div>
+          <div class="pt-3 border-t border-zinc-100 dark:border-zinc-800/80 flex items-center justify-between text-xs font-semibold">
+            <a href="https://github.com/priyam-pandey-r" target="_blank" class="text-blue-600 dark:text-blue-400 hover:underline inline-flex items-center">
+              <i class="fa-brands fa-github mr-1.5"></i> omics_fm_repo &rarr;
+            </a>
+            <span class="text-zinc-400 text-[11px]">Single-Cell AI</span>
+          </div>
+        </div>
+
+        <!-- Program 3: MutPerturb-sc -->
+        <div class="p-5 sm:p-6 rounded-xl border border-zinc-200 dark:border-zinc-800 bg-white dark:bg-[#121214] theme-transition flex flex-col justify-between">
+          <div>
+            <div class="flex items-center justify-between mb-2">
+              <span class="text-[11px] font-semibold px-2 py-0.5 rounded-full bg-purple-100 text-purple-800 dark:bg-purple-950/70 dark:text-purple-300">
+                Verified Architecture
+              </span>
+              <span class="text-xs text-zinc-400">2026</span>
+            </div>
+            <h3 class="text-base font-bold text-zinc-900 dark:text-zinc-100 mb-1">
+              MutPerturb-sc
+            </h3>
+            <p class="text-xs text-zinc-500 font-medium mb-2.5">Optimal Transport Single-Cell Variant Modeling</p>
+            <p class="text-xs text-zinc-600 dark:text-zinc-400 leading-relaxed mb-4">
+              Couples residue-level protein representations (ESM-2, FoldX $\Delta\Delta G$) with continuous Optimal Transport Conditional Flow Matching (OT-CFM) to transport unperturbed single-cell distributions across unseen missense variants.
+            </p>
+          </div>
+          <div class="pt-3 border-t border-zinc-100 dark:border-zinc-800/80 flex items-center justify-between text-xs font-semibold">
+            <a href="https://github.com/priyam-pandey-r" target="_blank" class="text-blue-600 dark:text-blue-400 hover:underline inline-flex items-center">
+              <i class="fa-brands fa-github mr-1.5"></i> mutperturb_sc_repo &rarr;
+            </a>
+            <span class="text-zinc-400 text-[11px]">Variant Transport</span>
+          </div>
+        </div>
+
+        <!-- Program 4: MANIFOLDSTEER -->
+        <div class="p-5 sm:p-6 rounded-xl border border-zinc-200 dark:border-zinc-800 bg-white dark:bg-[#121214] theme-transition flex flex-col justify-between">
+          <div>
+            <div class="flex items-center justify-between mb-2">
+              <span class="text-[11px] font-semibold px-2 py-0.5 rounded-full bg-amber-100 text-amber-800 dark:bg-amber-950/70 dark:text-amber-300">
+                Algorithmic Formulation
+              </span>
+              <span class="text-xs text-zinc-400">2026</span>
+            </div>
+            <h3 class="text-base font-bold text-zinc-900 dark:text-zinc-100 mb-1">
+              MANIFOLDSTEER
+            </h3>
+            <p class="text-xs text-zinc-500 font-medium mb-2.5">Developability-Aware Generative Protein Design</p>
+            <p class="text-xs text-zinc-600 dark:text-zinc-400 leading-relaxed mb-4">
+              Generative flow matching on rigid-body Lie group manifolds ($\mathrm{SE}(3)^N$) guided by uncertainty-calibrated multi-task oracles and direct preference optimization (DPO) to produce soluble, aggregation-resistant protein candidates.
+            </p>
+          </div>
+          <div class="pt-3 border-t border-zinc-100 dark:border-zinc-800/80 flex items-center justify-between text-xs font-semibold">
+            <a href="https://github.com/priyam-pandey-r" target="_blank" class="text-blue-600 dark:text-blue-400 hover:underline inline-flex items-center">
+              <i class="fa-brands fa-github mr-1.5"></i> manifoldsteer_repo &rarr;
+            </a>
+            <span class="text-zinc-400 text-[11px]">Generative Design</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Methodological Roots / Published Foundation -->
+    <div class="mb-6">
+      <h2 class="text-xl sm:text-2xl font-bold tracking-tight text-zinc-900 dark:text-zinc-100 mb-1">
+        Methodological Roots & Peer-Reviewed Foundations
+      </h2>
+      <p class="text-xs sm:text-sm text-zinc-600 dark:text-zinc-400">
+        Noise-robust multimodal representation learning and confidence-weighted cross-attention:
+      </p>
+    </div>
 
     <!-- Deep Dive 3: Thermal Pose -->
     <article id="thermal" class="p-5 sm:p-8 rounded-2xl border border-zinc-200 dark:border-zinc-800 bg-white dark:bg-[#121214] shadow-xs scroll-mt-20 theme-transition">
